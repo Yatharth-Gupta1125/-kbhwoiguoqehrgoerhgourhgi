@@ -1,0 +1,91 @@
+.website_title
+{
+    font-family: 'DejaVu Sans', Courier, monospace;
+    color: rgb(51, 255, 0);
+    font-size: 50px;
+}
+
+.note_heading
+{
+    border: 3px solid rgb(111, 0, 0);
+    font-family: 'DejaVu Sans', Courier, monospace;
+    color: rgb(255, 5, 0);
+    font-size: 25px;
+}
+
+body
+{
+    background-color: rgb(14, 14, 14);
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    line-height: 3;
+    text-align: center;
+    font-family: 'DejaVu Sans', Courier, monospace;
+    font-size: 15px;
+}
+
+
+canvas
+{
+    border: 10px solid whitesmoke;
+    border-radius: 29px;
+    animation: glow;
+    animation-duration: 15s;
+    margin-top: 275px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow 
+{
+    0%
+    {
+        box-shadow: 5px 5px 45px rgb(255, 0, 0);
+    }
+    10%
+    {
+        box-shadow: 5px 5px 45px rgb(0, 0, 0);
+    }
+    20%
+    {
+        box-shadow: 5px 5px 45px rgb(255, 0, 0);
+    }
+    30%
+    {
+        box-shadow: 5px 5px 45px rgb(0, 0, 0);
+    }
+    40%
+    {
+        box-shadow: 5px 5px 45px rgb(255, 0, 0);
+    }
+    50%
+    {
+        box-shadow: 5px 5px 45px rgb(0, 0, 0);
+    }
+    60%
+    {
+        box-shadow: 5px 5px 45px rgb(255, 2, 2);
+    }
+    70%
+    {
+        box-shadow: 5px 5px 45px rgb(0, 0, 0);
+    }
+    80%
+    {
+        box-shadow: 5px 5px 45px rgb(255, 0, 0);
+    }
+    90%
+    {
+        box-shadow: 5px 5px 45px rgb(202, 0, 0);
+    }
+    100%
+    {
+        box-shadow: 5px 5px 45px rgb(0, 0, 0);
+    }
+}
